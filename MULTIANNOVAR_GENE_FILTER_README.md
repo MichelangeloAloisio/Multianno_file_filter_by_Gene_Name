@@ -4,20 +4,14 @@ INTRODUCTION
 
 Today, in Genetic clinical diagnostic, Annovar is the most used tool to annotate exome or whole genome Variant Caller NGS output files. 
 The Annovar output file is called Multianno.txt. Usually it is open with softwares as Microsof Excel and OpenOffice that permit to visualize 
-the annotation file as TABLE and apply filter to columns in order to facilitate Genetists in the discovery of the patient mutation.
-While, despite their userfriendly approach, these software could not work large files. Therefore, since both the Whole Genome and the Exome sequencing 
-files usually are too large (about 400 Mb), we developed a filter with python3 programming language useful to: 
+the annotation file as TABLE and to apply filter to columns in order to facilitate Genetists in the discovery of the patient mutation.
+While, despite their userfriendly approach, these software could not work with large files. Since both the Whole Genome and the Exome sequencing 
+files usually are too large (about 400 Mb), we developed a filter with python3 programming language that permit to: 
 
-####da finire 
+1) Filter the GENE COLUMN of the muliannovar file by the GENE LIST file present in the folder (gene_list.csv).
+Is possible to edit the gene list in gene_list.csv file based on the target gene panel desired. 
 
-
-#
-##
-
-#
-
-1) to filter the GENE COLUMN of the muliannoavr file by a GENE LIST selected a charged by the user in order to obtain a MULTIANNO_SHORTER file composed by a TARGET PANEL of GENES; 
-2) to order the ALL columns based 
+2) Edit the Order the column position 
 
 
 GENE LIST to facilitate the clinical user to filter the Annovar output by a List of 
